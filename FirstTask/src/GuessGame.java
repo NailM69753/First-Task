@@ -14,9 +14,9 @@ public class GuessGame {
         guess = scanner.nextInt();
 
         if (guess == number) {
-            System.out.println("Congratulations! You guessed it right.");
+            System.out.println("Congratulations! You guessed it right;)");
         } else {
-            System.out.println("Sorry, wrong guess. The number was: " + number);
+            System.out.println("Sorry, wrong guess. You failed The number was: " + number);
         }
 
         scanner.close();
